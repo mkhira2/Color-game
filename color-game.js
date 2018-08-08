@@ -105,6 +105,6 @@ function randomColor(){
 	for (var i = 0; i < 3; i++) {
 	c.push(Math.floor(Math.random() * 256));
 	}
-	return "rgb(" + c + ")";
+	return "rgb(" + c.join(', ') + ")";
 }
 
